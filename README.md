@@ -1,8 +1,8 @@
-# {Company} Node Library
+# Attio Node Library
 
-[![npm shield](https://img.shields.io/npm/v/@fern-api/{company})](https://www.npmjs.com/package/@fern-api/{company})
+[![npm shield](https://img.shields.io/npm/v/@fern-api/Attio)](https://www.npmjs.com/package/@fern-api/Attio)
 
-The {Company} Node.js library provides access to the {Company} API from JavaScript/TypeScript.
+The Attio Node.js library provides access to the Attio API from JavaScript/TypeScript.
 
 ## Documentation
 
