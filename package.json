@@ -1,20 +1,8 @@
 {
     "name": "@fern-api/attio",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "private": false,
     "repository": "https://github.com/fern-attio/attio-node",
-    "files": [
-        "Client.d.ts",
-        "Client.js",
-        "environments.d.ts",
-        "environments.js",
-        "index.d.ts",
-        "index.js",
-        "api",
-        "core",
-        "errors",
-        "serialization"
-    ],
     "main": "./index.js",
     "types": "./index.d.ts",
     "scripts": {
