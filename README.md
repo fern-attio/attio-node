@@ -1,12 +1,12 @@
 # Attio Node Library
 
-[![npm shield](https://img.shields.io/npm/v/@fern-api/Attio)](https://www.npmjs.com/package/@fern-api/Attio)
+[![npm shield](https://img.shields.io/npm/v/@fern-api/attio)](https://www.npmjs.com/package/@fern-api/attio)
 
 The Attio Node.js library provides access to the Attio API from JavaScript/TypeScript.
 
 ## Documentation
 
-API reference documentation is available [here](docs_url).
+API reference documentation is available [here](https://attio.com/developers/introduction).
 
 ## Usage
 
