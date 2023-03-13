@@ -4,7 +4,7 @@
 
 import { Attio } from "@fern-api/attio";
 
-export interface Object {
+export interface AttioObject {
     id: Attio.particle.ObjectId;
     apiSlug?: Attio.particle.ObjectApiSlug;
     singularNoun?: Attio.particle.ObjectSingularNoun;

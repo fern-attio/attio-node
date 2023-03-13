@@ -1,6 +1,6 @@
 export * from "./GetObjectResponse";
 export * from "./ListObjectResponse";
-export * from "./Object";
+export * from "./AttioObject";
 export * from "./ObjectId";
 export * from "./ObjectWorkspaceId";
 export * from "./ObjectObjectId";

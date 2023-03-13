@@ -11,12 +11,12 @@ export const ListObjectResponse: core.serialization.ObjectSchema<
     Attio.particle.ListObjectResponse
 > = core.serialization.object({
     data: core.serialization.list(
-        core.serialization.lazyObject(async () => (await import("../../../../..")).particle.Object)
+        core.serialization.lazyObject(async () => (await import("../../../../..")).particle.AttioObject)
     ),
 });
 
 export declare namespace ListObjectResponse {
     interface Raw {
-        data: serializers.particle.Object.Raw[];
+        data: serializers.particle.AttioObject.Raw[];
     }
 }

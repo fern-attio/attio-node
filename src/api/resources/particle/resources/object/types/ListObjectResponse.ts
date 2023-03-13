@@ -5,5 +5,5 @@
 import { Attio } from "@fern-api/attio";
 
 export interface ListObjectResponse {
-    data: Attio.particle.Object[];
+    data: Attio.particle.AttioObject[];
 }

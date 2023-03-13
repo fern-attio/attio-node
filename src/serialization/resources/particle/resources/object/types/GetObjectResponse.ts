@@ -10,11 +10,11 @@ export const GetObjectResponse: core.serialization.ObjectSchema<
     serializers.particle.GetObjectResponse.Raw,
     Attio.particle.GetObjectResponse
 > = core.serialization.object({
-    data: core.serialization.lazyObject(async () => (await import("../../../../..")).particle.Object),
+    data: core.serialization.lazyObject(async () => (await import("../../../../..")).particle.AttioObject),
 });
 
 export declare namespace GetObjectResponse {
     interface Raw {
-        data: serializers.particle.Object.Raw;
+        data: serializers.particle.AttioObject.Raw;
     }
 }
