@@ -4,7 +4,7 @@
 
 import * as environments from "../../../../environments";
 import * as core from "../../../../core";
-import { Object } from "../resources/object/client/Client";
+import { Objects } from "../resources/objects/client/Client";
 
 export declare namespace Particle {
     interface Options {
@@ -16,9 +16,9 @@ export declare namespace Particle {
 export class Particle {
     constructor(private readonly options: Particle.Options) {}
 
-    private _object: Object | undefined;
+    private _objects: Objects | undefined;
 
-    public get object(): Object {
-        return (this._object ??= new Object(this.options));
+    public get objects(): Objects {
+        return (this._objects ??= new Objects(this.options));
     }
 }

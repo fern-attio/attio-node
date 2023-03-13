@@ -9,15 +9,15 @@ import urlJoin from "url-join";
 import * as serializers from "../../../../../../serialization";
 import * as errors from "../../../../../../errors";
 
-export declare namespace Object {
+export declare namespace Objects {
     interface Options {
         environment?: environments.AttioEnvironment | string;
         token?: core.Supplier<core.BearerToken | undefined>;
     }
 }
 
-export class Object {
-    constructor(private readonly options: Object.Options) {}
+export class Objects {
+    constructor(private readonly options: Objects.Options) {}
 
     /**
      * Lists all system-defined and user-defined objects in your workspace, including their defined attributes.

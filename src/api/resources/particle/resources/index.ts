@@ -1,2 +1,2 @@
-export * as object from "./object";
-export * from "./object/types";
+export * as objects from "./objects";
+export * from "./objects/types";
