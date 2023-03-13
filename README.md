@@ -10,12 +10,18 @@ API reference documentation is available [here](https://attio.com/developers/int
 
 ## Usage
 
-[![Try it out](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](TODO)
+[![Try it out](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/typescript-example-using-sdk-built-with-fern-qvk6qu?file=app.ts)
 
 ```typescript
-import { TODO } from "TODO";
+import { AttioClient } from '@fern-api/attio';
 
-const TODO
+const attio = new AttioClient({
+  token: 'ATTIO_TOKEN',
+});
+
+const response = await attio.workspaceMembers.get('workspace-member-id');
+
+console.log('Received workspace member', response.data);
 ```
 
 ## Beta status
