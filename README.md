@@ -24,6 +24,19 @@ const response = await attio.workspaceMembers.get('workspace-member-id');
 console.log('Received workspace member', response.data);
 ```
 
+## OAuth
+
+This SDK also supports using OAuth to generate a token.
+
+```
+import { AttioClient } from '@fern-api/attio';
+import { getToken } from '@fern-api/attio/oauth';
+
+const attio = new AttioClient({
+  token: getToken("CLIENT_ID", "CLIENT_SECRET"),
+});
+```
+
 ## Beta status
 
 This SDK is in beta, and there may be breaking changes between versions without a major version update. Therefore, we recommend pinning the package version to a specific version in your package.json file. This way, you can install the same version each time without breaking changes unless you are intentionally looking for the latest version.
