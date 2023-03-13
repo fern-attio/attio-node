@@ -28,7 +28,7 @@ console.log('Received workspace member', response.data);
 
 This SDK also supports using OAuth to generate a token.
 
-```
+```typescript
 import { AttioClient } from '@fern-api/attio';
 import { getToken } from '@fern-api/attio/oauth';
 
